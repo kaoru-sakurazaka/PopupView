@@ -16,6 +16,20 @@
 		FB5406DF17645E83008C4747 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = FB5406DE17645E83008C4747 /* Default.png */; };
 		FB5406E117645E83008C4747 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FB5406E017645E83008C4747 /* Default@2x.png */; };
 		FB5406E317645E83008C4747 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FB5406E217645E83008C4747 /* Default-568h@2x.png */; };
+		FB5406FD1764750A008C4747 /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB5406FC1764750A008C4747 /* TestViewController.m */; };
+		FB5406FE1764752C008C4747 /* PopupBackgroundView.m in Sources */ = {isa = PBXBuildFile; fileRef = FB5406EB1764740D008C4747 /* PopupBackgroundView.m */; };
+		FB5406FF1764752C008C4747 /* PopupController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB5406ED1764740D008C4747 /* PopupController.m */; };
+		FB5407001764752C008C4747 /* PopupImageBaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = FB5406EF1764740D008C4747 /* PopupImageBaseView.m */; };
+		FB5407011764752C008C4747 /* PopupBaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = FB5406F21764740D008C4747 /* PopupBaseView.m */; };
+		FB54070217647543008C4747 /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = FB5406F41764740D008C4747 /* background.png */; };
+		FB54070317647543008C4747 /* background@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FB5406F51764740D008C4747 /* background@2x.png */; };
+		FB54070417647543008C4747 /* sweet_love.png in Resources */ = {isa = PBXBuildFile; fileRef = FB5406F61764740D008C4747 /* sweet_love.png */; };
+		FB54070517647543008C4747 /* sweet_love@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FB5406F71764740D008C4747 /* sweet_love@2x.png */; };
+		FB54070817647B53008C4747 /* TestPopupView.m in Sources */ = {isa = PBXBuildFile; fileRef = FB54070717647B53008C4747 /* TestPopupView.m */; };
+		FB54070A17648D7D008C4747 /* PopupExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = FB54070917648D7D008C4747 /* PopupExtension.m */; };
+		FB54070E17649519008C4747 /* TestPopupImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = FB54070D17649519008C4747 /* TestPopupImageView.m */; };
+		FB5407111764A8EF008C4747 /* cookery.png in Resources */ = {isa = PBXBuildFile; fileRef = FB54070F1764A8EF008C4747 /* cookery.png */; };
+		FB5407121764A8EF008C4747 /* cookery@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FB5407101764A8EF008C4747 /* cookery@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +46,29 @@
 		FB5406DE17645E83008C4747 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		FB5406E017645E83008C4747 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		FB5406E217645E83008C4747 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		FB5406EA1764740D008C4747 /* PopupBackgroundView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PopupBackgroundView.h; sourceTree = "<group>"; };
+		FB5406EB1764740D008C4747 /* PopupBackgroundView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PopupBackgroundView.m; sourceTree = "<group>"; };
+		FB5406EC1764740D008C4747 /* PopupController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PopupController.h; sourceTree = "<group>"; };
+		FB5406ED1764740D008C4747 /* PopupController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PopupController.m; sourceTree = "<group>"; };
+		FB5406EE1764740D008C4747 /* PopupImageBaseView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PopupImageBaseView.h; sourceTree = "<group>"; };
+		FB5406EF1764740D008C4747 /* PopupImageBaseView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PopupImageBaseView.m; sourceTree = "<group>"; };
+		FB5406F01764740D008C4747 /* PopupProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PopupProtocol.h; sourceTree = "<group>"; };
+		FB5406F11764740D008C4747 /* PopupBaseView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PopupBaseView.h; sourceTree = "<group>"; };
+		FB5406F21764740D008C4747 /* PopupBaseView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PopupBaseView.m; sourceTree = "<group>"; };
+		FB5406F41764740D008C4747 /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = "<group>"; };
+		FB5406F51764740D008C4747 /* background@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "background@2x.png"; sourceTree = "<group>"; };
+		FB5406F61764740D008C4747 /* sweet_love.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sweet_love.png; sourceTree = "<group>"; };
+		FB5406F71764740D008C4747 /* sweet_love@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sweet_love@2x.png"; sourceTree = "<group>"; };
+		FB5406FB1764750A008C4747 /* TestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
+		FB5406FC1764750A008C4747 /* TestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
+		FB54070617647B53008C4747 /* TestPopupView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestPopupView.h; sourceTree = "<group>"; };
+		FB54070717647B53008C4747 /* TestPopupView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestPopupView.m; sourceTree = "<group>"; };
+		FB54070917648D7D008C4747 /* PopupExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PopupExtension.m; sourceTree = "<group>"; };
+		FB54070B17648D8B008C4747 /* PopupExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PopupExtension.h; sourceTree = "<group>"; };
+		FB54070C17649519008C4747 /* TestPopupImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestPopupImageView.h; sourceTree = "<group>"; };
+		FB54070D17649519008C4747 /* TestPopupImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestPopupImageView.m; sourceTree = "<group>"; };
+		FB54070F1764A8EF008C4747 /* cookery.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cookery.png; sourceTree = "<group>"; };
+		FB5407101764A8EF008C4747 /* cookery@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cookery@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +115,9 @@
 		FB5406D217645E83008C4747 /* PopupView */ = {
 			isa = PBXGroup;
 			children = (
+				FB5406FA1764750A008C4747 /* Demo */,
+				FB5406F31764740D008C4747 /* Resouce */,
+				FB5406E91764740D008C4747 /* PopupView */,
 				FB5406DB17645E83008C4747 /* AppDelegate.h */,
 				FB5406DC17645E83008C4747 /* AppDelegate.m */,
 				FB5406D317645E83008C4747 /* Supporting Files */,
@@ -97,6 +137,50 @@
 				FB5406E217645E83008C4747 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FB5406E91764740D008C4747 /* PopupView */ = {
+			isa = PBXGroup;
+			children = (
+				FB5406EA1764740D008C4747 /* PopupBackgroundView.h */,
+				FB5406EB1764740D008C4747 /* PopupBackgroundView.m */,
+				FB5406EC1764740D008C4747 /* PopupController.h */,
+				FB5406ED1764740D008C4747 /* PopupController.m */,
+				FB5406EE1764740D008C4747 /* PopupImageBaseView.h */,
+				FB5406EF1764740D008C4747 /* PopupImageBaseView.m */,
+				FB5406F01764740D008C4747 /* PopupProtocol.h */,
+				FB5406F11764740D008C4747 /* PopupBaseView.h */,
+				FB5406F21764740D008C4747 /* PopupBaseView.m */,
+				FB54070917648D7D008C4747 /* PopupExtension.m */,
+				FB54070B17648D8B008C4747 /* PopupExtension.h */,
+			);
+			path = PopupView;
+			sourceTree = "<group>";
+		};
+		FB5406F31764740D008C4747 /* Resouce */ = {
+			isa = PBXGroup;
+			children = (
+				FB54070F1764A8EF008C4747 /* cookery.png */,
+				FB5407101764A8EF008C4747 /* cookery@2x.png */,
+				FB5406F41764740D008C4747 /* background.png */,
+				FB5406F51764740D008C4747 /* background@2x.png */,
+				FB5406F61764740D008C4747 /* sweet_love.png */,
+				FB5406F71764740D008C4747 /* sweet_love@2x.png */,
+			);
+			path = Resouce;
+			sourceTree = "<group>";
+		};
+		FB5406FA1764750A008C4747 /* Demo */ = {
+			isa = PBXGroup;
+			children = (
+				FB5406FB1764750A008C4747 /* TestViewController.h */,
+				FB5406FC1764750A008C4747 /* TestViewController.m */,
+				FB54070617647B53008C4747 /* TestPopupView.h */,
+				FB54070717647B53008C4747 /* TestPopupView.m */,
+				FB54070C17649519008C4747 /* TestPopupImageView.h */,
+				FB54070D17649519008C4747 /* TestPopupImageView.m */,
+			);
+			path = Demo;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -150,10 +234,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FB54070217647543008C4747 /* background.png in Resources */,
+				FB54070317647543008C4747 /* background@2x.png in Resources */,
+				FB54070417647543008C4747 /* sweet_love.png in Resources */,
+				FB54070517647543008C4747 /* sweet_love@2x.png in Resources */,
 				FB5406D717645E83008C4747 /* InfoPlist.strings in Resources */,
 				FB5406DF17645E83008C4747 /* Default.png in Resources */,
 				FB5406E117645E83008C4747 /* Default@2x.png in Resources */,
 				FB5406E317645E83008C4747 /* Default-568h@2x.png in Resources */,
+				FB5407111764A8EF008C4747 /* cookery.png in Resources */,
+				FB5407121764A8EF008C4747 /* cookery@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -164,8 +254,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FB5406FE1764752C008C4747 /* PopupBackgroundView.m in Sources */,
+				FB5406FF1764752C008C4747 /* PopupController.m in Sources */,
+				FB5407001764752C008C4747 /* PopupImageBaseView.m in Sources */,
+				FB5407011764752C008C4747 /* PopupBaseView.m in Sources */,
 				FB5406D917645E83008C4747 /* main.m in Sources */,
 				FB5406DD17645E83008C4747 /* AppDelegate.m in Sources */,
+				FB5406FD1764750A008C4747 /* TestViewController.m in Sources */,
+				FB54070817647B53008C4747 /* TestPopupView.m in Sources */,
+				FB54070A17648D7D008C4747 /* PopupExtension.m in Sources */,
+				FB54070E17649519008C4747 /* TestPopupImageView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -243,7 +341,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "PopupView/PopupView-Prefix.pch";
 				INFOPLIST_FILE = "PopupView/PopupView-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -254,7 +354,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "PopupView/PopupView-Prefix.pch";
 				INFOPLIST_FILE = "PopupView/PopupView-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -278,6 +380,7 @@
 				FB5406E817645E83008C4747 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
