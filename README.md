@@ -1,9 +1,9 @@
 PopupView
 ------
-iOS Custom PopupView
+iOS Custom PopupView.  
 UIAlertView Like.
 
-iOSでカスタムしたポップアップビューを表示する事ができます。
+iOSでカスタムしたポップアップビューを表示する事ができます。  
 UIAlertViewに似ているかもしれません。
 
 License
