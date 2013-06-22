@@ -1,6 +1,10 @@
 //****************************************************************************//
 //  [ PopupProtocol.h ]                                                       //
 //****************************************************************************//
+//
+//  Copyright (c) 2013 Kaoru Sakurazaka
+//   https://github.com/kaoru-sakurazaka
+//
 
 #import <Foundation/Foundation.h>
 #import "PopupExtension.h"

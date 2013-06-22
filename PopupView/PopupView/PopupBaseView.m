@@ -1,6 +1,10 @@
 //****************************************************************************//
 //  [ PopupBaseView.m ]                                                       //
 //****************************************************************************//
+//
+//  Copyright (c) 2013 Kaoru Sakurazaka
+//   https://github.com/kaoru-sakurazaka
+//
 
 #import "PopupBaseView.h"
 #import "PopupController.h"

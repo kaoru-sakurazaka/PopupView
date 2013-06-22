@@ -1,6 +1,10 @@
 //****************************************************************************//
 //  [ PopupController.h ]                                                     //
 //****************************************************************************//
+//
+//  Copyright (c) 2013 Kaoru Sakurazaka
+//   https://github.com/kaoru-sakurazaka
+//
 
 #import <QuartzCore/QuartzCore.h>
 #import "PopupProtocol.h"

@@ -1,6 +1,10 @@
 //****************************************************************************//
 //  [ PopupExtension.m ]                                                      //
 //****************************************************************************//
+//
+//  Copyright (c) 2013 Kaoru Sakurazaka
+//   https://github.com/kaoru-sakurazaka
+//
 
 #include "PopupExtension.h"
 
