@@ -59,15 +59,21 @@
 //	  out @ none
 -(void)actButtonPopup:(UIButton*)sender{
     
-    TestPopupView* popupView = [[[TestPopupView alloc] initWithSize:CGSizeMake(280, 200)] autorelease];
+    TestPopupView* popupView = [[[TestPopupView alloc] initWithSize:CGSizeMake(280, 248)] autorelease];
     
     UIButton* button = [UIButton buttonWithType:UIButtonTypeRoundedRect];
     button.frame = CGRectMake( 12, 12, 280-24, 44 );
     [button setTitle:@"Next Popup" forState:UIControlStateNormal];
     [button addTarget:self action:@selector(actButtonPopup:) forControlEvents:UIControlEventTouchUpInside];
     [popupView addSubview:button];
-    
-    UILabel* label = [[[UILabel alloc] initWithFrame:CGRectMake( 16, 64, 280-32, 120 )] autorelease];
+
+    UIButton* buttonAll = [UIButton buttonWithType:UIButtonTypeRoundedRect];
+    buttonAll.frame = CGRectMake( 12, 60, 280-24, 44 );
+    [buttonAll setTitle:@"All Remove" forState:UIControlStateNormal];
+    [buttonAll addTarget:self action:@selector(actButtonAll:) forControlEvents:UIControlEventTouchUpInside];
+    [popupView addSubview:buttonAll];
+
+    UILabel* label = [[[UILabel alloc] initWithFrame:CGRectMake( 16, 112, 280-32, 120 )] autorelease];
     label.opaque = NO;
     label.backgroundColor = [UIColor colorWithWhite:0.9 alpha:1.0];
     label.numberOfLines = 0;
@@ -76,6 +82,14 @@
     [popupView addSubview:label];
     
     [popupView show];
+}
+
+// -----------------------------------------------------------------------
+//	[actButtonAll]
+//	  in  @ (UIButton*)sender
+//	  out @ none
+-(void)actButtonAll:(UIButton*)sender{
+    [[PopupController sharedPopupController] popAllViews];
 }
 
 // -----------------------------------------------------------------------

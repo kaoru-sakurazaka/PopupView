@@ -21,6 +21,8 @@
 -(BOOL)pushView:(UIView<PopupView>*)view;
 -(BOOL)popView:(UIView<PopupView>*)view;
 
+-(BOOL)popAllViews;
+
 -(BOOL)tryUnloadBackgroundView;
 
 @end

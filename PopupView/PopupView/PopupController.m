@@ -132,6 +132,23 @@ static PopupController* _sharedObject;
 }
 
 // -----------------------------------------------------------------------
+//	[popAllViews]
+//	  in  @ none
+//	  out @ BOOL
+-(BOOL)popAllViews{
+    if( self.popupViews.count == 0 )    return NO;
+    UIView<PopupView>* view = [self.popupViews lastObject];
+    
+    [view doRemoveFromSuperView:YES];
+    [self.popupViews removeAllObjects];
+
+    [self.backgroundView dismiss];
+    self.backgroundView = nil;
+
+    return YES;
+}
+
+// -----------------------------------------------------------------------
 //	[tryUnloadBackgroundView]
 //	  in  @ (UIView<PopupView>*)view
 //	  out @ BOOL
